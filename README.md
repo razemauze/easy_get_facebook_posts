@@ -18,7 +18,7 @@ This can be used to pull out Events, a certain page has created (parameter: &typ
 In the $fields-array, enter each field you want to get. This can make the call easier, if you only need the image and url from the post, and not all likes, shares etc.
 Enter the name of the page (facebook.com/PAGENAME/) where it says PAGENAME in the url. The pagename should also be inserted in the $pages-array in this file.
 
-Description of fields:
+### Description of fields
 * id
 	* Gets the Facebook-id of the post.
 * created_time
