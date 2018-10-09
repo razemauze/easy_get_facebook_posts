@@ -38,4 +38,4 @@ Enter the name of the page (facebook.com/PAGENAME/) where it says PAGENAME in th
 * likes.summary(true)
 	* Gets all LIKE-reactions of the post.
 * reactions.type(LOVE).summary(true)
-	*Gets all LOVE-reactions of the post. "LOVE" can be exchanged with WOW, SAD, LIKE, ANGRY.
+	* Gets all LOVE-reactions of the post. "LOVE" can be exchanged with WOW, SAD, LIKE, ANGRY.
