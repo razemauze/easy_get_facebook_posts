@@ -8,7 +8,7 @@ $fields = array(
 	FIELDS YOU NEED
 );
 
-$fb_posts = json_decode(file_get_contents('https://laybackcph.dk/fb.php?p=PAGENAME&fields='.implode(',', $fields)), true);
+$fb_posts = json_decode(file_get_contents('https://yourdomain.com/fb.php?p=PAGENAME&fields='.implode(',', $fields)), true);
 ```
 
 You can also send an extra parameter in the file_get_contents above. The parameter is: type
