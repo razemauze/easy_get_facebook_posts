@@ -9,7 +9,7 @@ $pages = [
 	/*Insert page-names in this array, to be able to pull posts from them */
 ];
 
-if ( !isset($_GET['p']) && ($_SERVER['REMOTE_ADDR'] == '217.63.118.190') )
+if ( !isset($_GET['p']) && ($_SERVER['REMOTE_ADDR'] == 'YOUR_IP_ADDRESS') )
 {
 	foreach($pages as $title)
 	{
